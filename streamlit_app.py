@@ -21,8 +21,7 @@ Gampang! Cuman pilih lewat sidebar di sini👈 terus tinggal satset satset deh.
 
 st.subheader("Jika ada bug atau masalah silahkan langsung report ke email dibawah ini :")
 st.markdown("""
-
-kakurudev123@gmail.com
+kakurudeveloper123@gmail.com
 """)
 
 st.subheader("NOTE : APLIKASI INI MASIH DALAM TAHAP PENGEMBANGAN !!!")
