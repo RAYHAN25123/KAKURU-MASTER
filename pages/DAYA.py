@@ -15,4 +15,5 @@ st.header(w)
 
 t = st.number_input("Masukan Waktunya(sekon/Detik)")
 p = w /t
-st.header(p)
+st.header("Daya (Watt)")
+st.subheader(p)
