@@ -7,5 +7,5 @@ st.write(
 
 st.subheader("Testing")
 x = st.number_input("Masukan nilai")
-x + 1 = b
+b = x + 1
 st.title(b)
