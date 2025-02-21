@@ -8,6 +8,8 @@ st.set_page_config(
 
 st.sidebar.success("👆SILAHKAN PILIH👆")
 
+st.sidebar.succes(pages)
+
 st.title("KAKURU (Kalkulator Rumus): Cara mudah menghitung cepat soal matematika")
 st.markdown("""
     Orang yang terlibat :
