@@ -14,7 +14,12 @@ w = f * s
 st.header ("Joule")
 st.header(w)
 
-t = st.number_input("Masukan Waktunya(sekon/Detik)")
-p = w/t
+t = st.number_input("masukan Waktunya(Sekon/Detik)")
+
+try:
+    p = w / t
+except ZeroDivisionError:
+    p = 0  # Bisa diganti dengan nilai default atau error handling yang sesuai
+
 st.header("Daya (Watt)")
 st.subheader(p)
