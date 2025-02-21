@@ -19,3 +19,5 @@ st.markdown("""
 Gampang! Cuman pilih lewat sidebar di sini👈 terus tinggal satset satset deh.
 """)
 
+st.subheader("NOTE : APLIKASI INI MASIH DALAM TAHAP PENGEMBANGAN !!!")
+
