@@ -19,7 +19,7 @@ st.markdown("""
 Gampang! Cuman pilih lewat sidebar di sini👈 terus tinggal satset satset deh.
 """)
 
-st.title("BANGUN RUANG BALOK")
+st.sidebar.success("BANGUN RUANG BALOK")
 p = st.number_input("Masukan Nilai Panjang:")
 l = st.number_input("Masukan Nilai Lebar:")
 t = st.number_input("Masukan Nilai Tinggi:")
