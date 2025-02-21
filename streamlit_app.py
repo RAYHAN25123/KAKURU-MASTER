@@ -9,10 +9,11 @@ st.set_page_config(
 st.sidebar.success("👆SILAHKAN PILIH👆")
 
 st.title("KAKURU (Kalkulator Rumus): Cara mudah menghitung cepat soal matematika")
-st.down("""
+st.markdown("""
     Orang yang terlibat :
-    - Raditya Rayhan Anjaya sebagai Programmer
-    - Khalil Ghibran Dzakwan Mulyadi sebagai Penyusun
+        - Raditya Rayhan Anjaya sebagai Programmer
+        - Khalil Ghibran Dzakwan Mulyadi sebagai Penyusun
+
 ### Apa Itu KAKURU?
     **KAKURU** adalah sebuah mesin kalkulator yang berkerja layaknya kalkulator pada umumnya, hanya saja dirancang untuk mempermudah menyelesaikan masalah mengenai rumus matematika.
     ### Gimana cara kerjanya?
@@ -35,8 +36,8 @@ contact_form = """
 st.markdown(contact_form, unsafe_allow_html=True)
 
 # Use Local CSS File
-def local_css(file_name):
-    with open(file_name) as f:
+local_css(file_name):
+    open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 
