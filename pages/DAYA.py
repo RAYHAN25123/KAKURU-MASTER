@@ -11,9 +11,10 @@ st.subheader("Note : Cari (W) terlebih dahulu")
 f = st.number_input("Masukan Gayanya(Newton)")
 s = st.number_input("Masukan Perpindahan Bendanya(Meter)")
 w = f * s
+st.header ("Joule")
 st.header(w)
 
 t = st.number_input("Masukan Waktunya(sekon/Detik)")
-p = w /t
+p = w/t
 st.header("Daya (Watt)")
 st.subheader(p)
