@@ -9,7 +9,7 @@ st.set_page_config(
 st.sidebar.success("👆SILAHKAN PILIH👆")
 
 st.title("KAKURU (Kalkulator Rumus): Cara mudah menghitung cepat soal matematika")
-st.markdown("""
+st.down("""
     Orang yang terlibat :
     - Raditya Rayhan Anjaya sebagai Programmer
     - Khalil Ghibran Dzakwan Mulyadi sebagai Penyusun
