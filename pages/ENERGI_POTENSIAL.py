@@ -5,11 +5,12 @@ st.markdown("""
 - EP = Energi Potensial"
 - M = Massa Benda (Kg)
 - G = Percepatan Gravitasi (m/s)
-- H = Ketinggian")
+- H = Ketinggian
+""")
 st.subheader("Rumus = m x g x h")
 
 m = st.number_input("Masukan Massanya")
 h = st.number_input("Masukan Tingginya")
 ep = m * 10 * h
-st.subheader("Hasil")
-st.header(ep)
+st.header("Hasil")
+st.subheader(ep)
