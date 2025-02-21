@@ -11,7 +11,7 @@ st.markdown("""
 st.header("Mencari Volt :")
 i = st.number_input("Masukan Arus Listriknya(Ampere)")
 r = st.number_input("Masukan Hambatan Listriknya(Ω")
-v = i1 * r1
+v = i * r
 st.header("Volt")
 st.subheader(v)
 
