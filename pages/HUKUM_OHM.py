@@ -13,3 +13,9 @@ r = st.number_input("Masukan Hambatan Listriknya(Ω)")
 v = i * r
 st.header("Volt")
 st.subheader(v)
+try:
+    i = v / r
+except ZeroDivisionError:
+    i = 0  # Bisa diganti dengan nilai default atau error handling yang sesuai
+st.header("Ampere")
+st.subheader(i)
