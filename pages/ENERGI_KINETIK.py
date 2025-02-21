@@ -10,5 +10,5 @@ st.markdown("""
 m = st.number_input("Masukkan Massa Bendanya")
 v = st.number_input("Masukan Kecepatannya")
 ek = m * v /2
-st.title("Hasil")
+st.subheader("Hasil")
 st.header(ek)
