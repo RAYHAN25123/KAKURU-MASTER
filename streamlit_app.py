@@ -12,6 +12,7 @@ st.title("KAKURU (Kalkulator Rumus): Cara mudah menghitung cepat soal matematika
 st.markdown("""
     Orang yang terlibat :
         - Raditya Rayhan Anjaya sebagai Programmer
+        
         - Khalil Ghibran Dzakwan Mulyadi sebagai Penyusun
     ### Apa Itu KAKURU?
     **KAKURU** adalah sebuah mesin kalkulator yang berkerja layaknya kalkulator pada umumnya, hanya saja dirancang untuk mempermudah menyelesaikan masalah mengenai rumus matematika.
