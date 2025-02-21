@@ -10,7 +10,10 @@ st.markdown("""
 """)
 st.header("Mencari Volt :")
 i1 = st.number_input("Masukan Arus Listriknya(Ampere)")
-r1 = st.number_input("Masukan Hambatan Listriknya(Ω)")
+with st.form(key="my_form"):
+    r = st.number_input("Masukan Hambatan Listriknya(Ω)")
+    submit_button = st.form_submit_button("Hitung")
+
 v = i1 * r1
 st.header("Volt")
 st.subheader(v)
