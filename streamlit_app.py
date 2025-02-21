@@ -26,3 +26,10 @@ kakurudeveloper123@gmail.com
 
 st.subheader("NOTE : APLIKASI INI MASIH DALAM TAHAP PENGEMBANGAN !!!")
 
+st.markdown("""
+- Pembaruan KAKURU MASTER
+- Fix beberapa bug
+- Penambahan baru yaitu rumus-rumus Fisika (Yang bersangkutan dengan IPA)
+Diupdate pada tanggal 21 Februari 2025
+""")
+
