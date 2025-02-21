@@ -7,7 +7,7 @@ st.markdown("""
 - EK = 1/2 x M x V
 """)
 
-m = st.number_inpt("Masukkan Massa Bendanya")
+m = st.number_input("Masukkan Massa Bendanya")
 v = st.number_input("Masukan Kecepatannya")
 ek = m * v /2
 st.title("Hasil")
