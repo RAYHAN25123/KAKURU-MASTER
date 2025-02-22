@@ -31,6 +31,7 @@ a = st.number_input("Masukan Percepatannya(m/s)")
 f = m * a
 st.header("Gaya (N)")
 st.subheader(f)
+
 st.header("Rumus Mencari Percepatan")
 st.markdown("""
 - A = F/M
