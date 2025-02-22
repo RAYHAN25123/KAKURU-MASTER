@@ -20,10 +20,10 @@ v1 = st.number_input("Masukan Tegangan Listriknya(Volt)")
 r1 = st.number_input("Masukkan Hambatan Listriknya(Ω)", key ="r1")
 if r1 != 0:
     ii = v1 / r1
-else:
-    st.error("⚠️ Error: Hambatan tidak boleh 0! Masukkan nilai yang lebih besar dari 0.")
     st.header("Ampere")
     st.subheader(f" {ii}")
+else:
+    st.error("⚠️ Error: Hambatan tidak boleh 0! Masukkan nilai yang lebih besar dari 0.")
 st.header("Rumus Mencari Hambatan Listrik (Ω)")
 st.subheader("R = V/I")
 v2 = st.number_input("Masukan Tegangan Listriknya(Volt)", key ="v2")
