@@ -24,8 +24,6 @@ if r1 != 0:
     ii = v1 / r1
     st.header("Ampere")
     st.subheader(f" {ii}")
-else:
-    st.subheader("⚠️ Note: Hambatan tidak boleh 0! Masukkan nilai yang lebih besar dari 0.")
 st.header("Rumus Mencari Hambatan Listrik (Ω)")
 st.markdown("""
 R = V/I
@@ -37,4 +35,6 @@ if i1 != 0:
     st.header("Hambatan Listrik (Ω)")
     st.subheader(f" {r2}")
 else:
-    st.subheader("⚠️ Note: Hambatan tidak boleh 0! Masukkan nilai yang lebih besar dari 0.")
+    st.markdown("""
+⚠️ Note: Hambatan tidak boleh 0! Masukkan nilai yang lebih besar dari 0.
+""")
