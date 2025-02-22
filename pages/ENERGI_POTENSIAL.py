@@ -2,12 +2,15 @@ import streamlit as st
 
 st.title("Energi Potensial")
 st.markdown("""
-- EP = Energi Potensial"
+- EP = Energi Potensial
 - M = Massa Benda (Kg)
 - G = Percepatan Gravitasi (m/s)
 - H = Ketinggian
 """)
-st.subheader("Rumus = m x g x h")
+st.header("Rumus")
+st.markdown("""
+M x G x H
+""")
 
 m = st.number_input("Masukan Massanya")
 h = st.number_input("Masukan Tingginya")
