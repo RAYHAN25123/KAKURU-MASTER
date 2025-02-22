@@ -21,7 +21,5 @@ r1 = st.number_input("Masukan Hambatan Listriknya(OHM/Ω)")
 try:
     i1 = v1 / r1
     st.write(f"Arus listrik (I) = {i1} A")
-except ZeroDivisionError:
-    st.error("Error: Pembagian dengan nol tidak diperbolehkan! Masukkan hambatan yang lebih besar dari 0.")
 st.header("Ampere")
 st.subheader(i1)
