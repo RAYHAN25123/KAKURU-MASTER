@@ -23,5 +23,6 @@ if r1 != 1:
     st.write(f"Arus listrik (I) = {i1} A")
 else:
     st.error("Error: Hambatan (R) tidak boleh 0! Masukkan nilai yang lebih besar dari 0.")
+    r1 = st.number_input("Masukkan Hambatan Listrik (Ω)", min_value=0.01)
 st.header("Ampere")
 st.subheader(i1)
