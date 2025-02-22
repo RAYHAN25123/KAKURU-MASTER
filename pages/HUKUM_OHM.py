@@ -19,13 +19,13 @@ st.subheader("I = V/R")
 v1 = st.number_input("Masukan Tegangan Listriknya(Volt)")
 r1 = st.number_input("Masukkan Hambatan Listrik (Ω)", key ="r1")
 try:
-    i1 = v1 / r1
-    st.write(f"Arus listrik (I) = {i1} A")
-   i1 = None  # Inisialisasi awal
+    1 = v1 / r1
+    st.write(f"Arus listrik (I) = {1} A")
+   1 = None  # Inisialisasi awal
 if r1 != 0:
-    i1 = v1 / r1
-    st.subheader(f"Arus listrik (I): {i1} A")
+    1 = v1 / r1
+    st.subheader(f"Arus listrik (I): {1} A")
 else:
     st.error("⚠️ Error: Hambatan tidak boleh 0! Masukkan nilai yang lebih besar dari 0.")
 st.header("Ampere")
-st.subheader(i1)
+st.subheader(1)
