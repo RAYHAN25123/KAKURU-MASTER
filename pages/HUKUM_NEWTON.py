@@ -56,3 +56,5 @@ else:
     st.markdown("""
 ⚠️ Note: Hambatan tidak boleh 0! Masukkan nilai yang lebih besar dari 0.
 """)
+st.header("Hukum Newton lll")
+st.subheader("F aksi = −F reaksi")
