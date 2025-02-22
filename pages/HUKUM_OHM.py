@@ -24,4 +24,4 @@ if r1 != 0:
 else:
     st.error("⚠️ Error: Hambatan tidak boleh 0! Masukkan nilai yang lebih besar dari 0.")
 st.header("Ampere")
-st.subheader(1)
+st.subheader(i1)
