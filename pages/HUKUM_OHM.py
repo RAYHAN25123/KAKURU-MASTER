@@ -22,7 +22,7 @@ v1 = st.number_input("Masukan Tegangan Listriknya(Volt)")
 r1 = st.number_input("Masukkan Hambatan Listriknya(Ω)", key ="r1")
 if r1 != 0:
     ii = v1 / r1
-st.header("Ampere")
+    st.header("Ampere")
     st.subheader(f" {ii}")
 st.header("Rumus Mencari Hambatan Listrik (Ω)")
 st.markdown("""
