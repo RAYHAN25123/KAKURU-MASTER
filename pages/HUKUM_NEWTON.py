@@ -31,3 +31,27 @@ a = st.number_input("Masukan Percepatannya(m/s)")
 f = m * a
 st.header("Gaya (N)")
 st.subheader(f)
+st.header("Rumus Mencari Percepatan")
+st.markdown("""
+- A = F/M
+""")
+f1 = st.number_input("Masukan Gayanya(N)")
+m1 = st.number_input("Masukkan Massanya", key ="m1")
+if m1 != 0:
+    a1 = f1 / m1
+    st.header("Percepatan")
+    st.subheader(f" {a1}")
+st.header("Rumus Mencari Hambatan Listrik (Ω)")
+st.markdown("""
+R = V/I
+""")
+v2 = st.number_input("Masukan Tegangan Listriknya(Volt)", key ="v2")
+i1 = st.number_input("Masukkan Arus Listriknya(Ω)", key ="i1")
+if i1 != 0:
+    r2 = v2 / i1
+    st.header("Hambatan Listrik (Ω)")
+    st.subheader(f" {r2}")
+else:
+    st.markdown("""
+⚠️ Note: Hambatan tidak boleh 0! Masukkan nilai yang lebih besar dari 0.
+""")
