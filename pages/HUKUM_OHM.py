@@ -17,7 +17,7 @@ st.subheader(v)
 st.header("Rumus Mencari Ampere")
 st.subheader("I = V/R")
 v1 = st.number_input("Masukan Tegangan Listriknya(Volt)")
-r1 = st.number_input("Masukkan Hambatan Listrik (Ω)", key = r1)
+r1 = st.number_input("Masukkan Hambatan Listrik (Ω)", key ="r1")
 try:
     i1 = v1 / r1
     st.write(f"Arus listrik (I) = {i1} A")
