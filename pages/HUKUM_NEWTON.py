@@ -42,16 +42,16 @@ if m1 != 0:
     a1 = f1 / m1
     st.header("Percepatan")
     st.subheader(f" {a1}")
-st.header("Rumus Mencari Hambatan Listrik (Ω)")
+st.header("Rumus Mencari Massa(Kg)")
 st.markdown("""
-R = V/I
+- M = F/A
 """)
-v2 = st.number_input("Masukan Tegangan Listriknya(Volt)", key ="v2")
-i1 = st.number_input("Masukkan Arus Listriknya(Ω)", key ="i1")
-if i1 != 0:
-    r2 = v2 / i1
+f2 = st.number_input("Masukan Gayanya(N)", key ="f2")
+a2 = st.number_input("Masukkan Percepatannya(m/s)", key ="a2")
+if a2 != 0:
+    m2 = f2 / a2
     st.header("Hambatan Listrik (Ω)")
-    st.subheader(f" {r2}")
+    st.subheader(f" {m2}")
 else:
     st.markdown("""
 ⚠️ Note: Hambatan tidak boleh 0! Masukkan nilai yang lebih besar dari 0.
