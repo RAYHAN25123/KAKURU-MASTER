@@ -9,6 +9,7 @@ st.markdown("""
 """)
 
 st.header("Hukum Newton l")
+st.subheader("Setiap benda akan tetap diam atau bergerak lurus beraturan kecuali ada gaya eksternal yang bekerja padanya.")
 st.subheader("Rumus")
 st.markdown("""
 - ∑F=0
@@ -57,4 +58,8 @@ else:
 ⚠️ Note: Hambatan tidak boleh 0! Masukkan nilai yang lebih besar dari 0.
 """)
 st.header("Hukum Newton lll")
-st.subheader("F aksi = −F reaksi")
+st.subheader("Setiap aksi memiliki reaksi yang sama besar tetapi berlawanan arah.")
+st.subheader("Rumus")
+st.markdown("""
+- F aksi = −F reaksi
+""")
