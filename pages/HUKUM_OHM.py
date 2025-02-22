@@ -10,8 +10,14 @@ st.markdown("""
 """)
 st.header("Mencari Volt :")
 i = st.number_input("Masukan Arus Listriknya(Ampere)")
-r = st.number_input("Masukan Hambatan Listriknya(Ω")
+r = st.number_input("Masukan Hambatan Listriknya(Ω)")
 v = i * r
 st.header("Volt")
 st.subheader(v)
-
+st.header("Rumus Mencari Ampere")
+st.subheader("I = V/R")
+v1 = st.number_input("Masukan Tegangan Listriknya(Volt)")
+r1 = st.number_input("Masukan Hambatan Listriknya(Ω)")
+i1 = v1 / r1
+st.header("Ampere")
+st.subheader(i1)
