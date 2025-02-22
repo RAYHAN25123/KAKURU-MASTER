@@ -17,7 +17,7 @@ st.subheader(v)
 st.header("Rumus Mencari Ampere")
 st.subheader("I = V/R")
 v1 = st.number_input("Masukan Tegangan Listriknya(Volt)", key = v1")
-r1 = st.number_input("Masukan Hambatan Listriknya(Ω)"," key = r1)
+r1 = st.number_input("Masukan Hambatan Listriknya(Ω) - 1")
 i1 = v1 / r1
 st.header("Ampere")
 st.subheader(i1)
