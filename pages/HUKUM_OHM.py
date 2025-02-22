@@ -17,7 +17,11 @@ st.subheader(v)
 st.header("Rumus Mencari Ampere")
 st.subheader("I = V/R")
 v1 = st.number_input("Masukan Tegangan Listriknya(Volt)")
-r1 = st.number_input("Masukan Hambatan Listriknya(Ω) - 1")
-i1 = v1 / r1
+r1 = st.number_input("Masukan Hambatan Listriknya(OHM/Ω)")
+try:
+    i1 = v1 / r1
+    st.write(f"Arus listrik (I) = {i1} A")
+except ZeroDivisionError:
+    st.error("Error: Pembagian dengan nol tidak diperbolehkan! Masukkan hambatan yang lebih besar dari 0.")
 st.header("Ampere")
 st.subheader(i1)
