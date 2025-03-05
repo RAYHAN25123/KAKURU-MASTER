@@ -11,7 +11,7 @@ st.markdown("""
 - V = f x λ
 """)
 f = st.number_input("Masukan Frekuensinya(Hertz)")
-1 = st.number_input("Masukan Panjang Gelombangnya(Meter)")
-v = f * 1
+x = st.number_input("Masukan Panjang Gelombangnya(Meter)")
+v = f * x
 st.header("Kecepatan Gelombang(m/s)")
 st.subheader(v)
