@@ -8,5 +8,10 @@ st.markdown("""
 """)
 st.subheader("Rumus")
 st.markdown("""
-- v=fλ
+- V = f x λ
 """)
+f = st.number_input("Masukan Frekuensinya(Hertz)")
+1 = st.number_input("Masukan Panjang Gelombangnya(Meter)")
+v = f * 1
+st.header("Kecepatan Gelombang(m/s)")
+st.subheader(v)
