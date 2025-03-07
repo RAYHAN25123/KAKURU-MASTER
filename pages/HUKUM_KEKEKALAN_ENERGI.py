@@ -14,3 +14,8 @@ st.header("Energi Mekanik")
 st.markdown("""
 - Mencari Energi Kinetik
 """)
+m = st.number_input("Masukkan Massa Bendanya")
+v = st.number_input("Masukan Kecepatannya")
+ek = m * v /2
+st.header("Hasil")
+st.subheader(ek)
