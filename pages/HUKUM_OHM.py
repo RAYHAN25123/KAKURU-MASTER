@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Hukum Ohm(Listrik)")
+st.title("Hukum OHM(Listrik)")
 st.header("Rumus")
 st.markdown("""
 - V = Tegangan Listrik (Volt)
