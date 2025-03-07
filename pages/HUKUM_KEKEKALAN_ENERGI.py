@@ -17,8 +17,21 @@ st.markdown("""
 m = st.number_input("Masukkan Massa Bendanya")
 v = st.number_input("Masukan Kecepatannya")
 ek = m * v /2
-st.header("ENergi Kinetik")
+st.header("Joule")
 st.subheader(ek)
 st.markdown("""
 - Energi Potensial
 """)
+m = st.number_input("Masukan Massanya")
+h = st.number_input("Masukan Tingginya")
+ep = m * 10 * h
+st.header("Joule")
+st.subheader(ep)
+st.markdown("""
+- Energi Mekanik
+""")
+ek = st.number_input("Masukan Energi Kinetiknya(Joule)")
+ep = st.number_input("Masukan Energi Potensialnya(Joule)")
+em = ek + ep
+st.header("Joule")
+st.subheader(em)
