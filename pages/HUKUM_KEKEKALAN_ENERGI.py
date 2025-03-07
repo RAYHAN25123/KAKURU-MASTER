@@ -30,8 +30,6 @@ st.subheader(ep)
 st.markdown("""
 - Energi Mekanik
 """)
-ek = st.number_input("Masukan Energi Kinetiknya(Joule)")
-ep = st.number_input("Masukan Energi Potensialnya(Joule)")
 em = ek + ep
 st.header("Joule")
 st.subheader(em)
