@@ -15,5 +15,6 @@ M x G x H
 m = st.number_input("Masukan Massanya")
 h = st.number_input("Masukan Tingginya")
 ep = m * 10 * h
-st.header("Hasil")
+st.header("Hasil"
+         )
 st.subheader(ep)
